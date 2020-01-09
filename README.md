@@ -20,9 +20,10 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
 ```
 var testXML string = a  //This can be set to a or b
 ```
-- Rebuild the application from the application directory, eg. $HOME/go/src/main
+- Rebuild run the application from the application directory, eg. $HOME/go/src/main
 ```
 $ go build main.go
+$ ./main
 ```
 - Refresh the browser to see the newly assigned data.
 
