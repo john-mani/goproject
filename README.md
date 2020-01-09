@@ -10,7 +10,7 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
   $ cd $HOME/go/src/main
   $ ./main 
   ```
- - Open a browser and go to: <a href="http://localhost:8080/main" target="_blank">http://localhost:8080/main</a>
+ - Open a browser and go to: [http://localhost:8080/main"](http://localhost:8080/main)
 
 ## Change Test Cases
 - Open the *main.go* file
