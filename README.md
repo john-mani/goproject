@@ -7,7 +7,6 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
 - Download and unzip file to your workspace directory, eg. $HOME/go/src.  For this example, we'll rename the folder to main.
 - Navigate to the application folder. Build and run the *main.go* file from the command prompt eg.
   ```
-  
   $ cd $HOME/go/src/main
   $ go build main.go
   $ ./main 
