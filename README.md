@@ -5,9 +5,11 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
 - Ensure Go is installed. Visit the [Go site](https://golang.org/doc/install) for instructions and documentation.
 
 - Download and unzip file to your workspace directory, eg. $HOME/go/src.  For this example, we'll rename the folder to main.
-- Navigate to and run the *main.go* file from the command prompt eg.
+- Navigate to the application folder. Build and run the *main.go* file from the command prompt eg.
   ```
+  
   $ cd $HOME/go/src/main
+  $ go build main.go
   $ ./main 
   ```
  - Open a browser and go to: [http://localhost:8080/main](http://localhost:8080/main)
