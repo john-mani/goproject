@@ -4,8 +4,8 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
 ## Installation & Usage
 - Ensure Go is installed. Visit the [Go site](https://golang.org/doc/install) for instructions and documentation.
 
-- Unzip file to your workspace directory, eg. $HOME/go.
-- Run the *main.go* file from the command prompt eg.
+- Unzip file to your workspace directory, eg. $HOME/go/src.  For this example, we'll rename the folder to main.
+- Navigate to and run the *main.go* file from the command prompt eg.
   ```
   $ cd $HOME/go/src/main
   $ ./main 
