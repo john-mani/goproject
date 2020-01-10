@@ -30,19 +30,36 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
 ```
 
 
-## Change Test Cases
-- Open the *main.go* file
-- On line 27, toggle between 'a' or 'b' as the assigned testXML string variable (the default is set to 'a'). Save the *main.go* file.
-
+## Other Test Cases
+- Example command string for another test:
 ```
-var testXML string = a  //This can be set to a or b
+curl -X POST -H 'Content-Type: application/xml' -d "<orderList>	
+	<order>
+		<id>asfd678f-df88-dfd8-dfd7-vc78bc87xv89</id>
+		<data>order data 1</data>
+		<createdAt>0001-01-01T00:00:00Z</createdAt>
+		<updatedAt>0001-01-01T00:00:00Z</updatedAt>
+	</order>
+	<order>
+		<id>asdf234-sd7f8-df8-asd98-vzx87vzx65asd</id>
+		<data>order data 2</data>
+		<createdAt>0001-01-01T00:00:00Z</createdAt>
+		<updatedAt>0001-01-01T00:00:00Z</updatedAt>
+	</order>
+	<order>
+		<id>asdf234-sd7f8-df8-asd98-vzx87vzx65asd</id>
+		<data>order data 3</data>
+		<createdAt>0001-01-01T00:00:00Z</createdAt>
+		<updatedAt>0001-01-01T00:00:00Z</updatedAt>
+	</order>
+	<order>
+		<id>asdf234-sd7f8-df8-asd98-vzx87vzx65asd</id>
+		<data>order data 4</data>
+		<createdAt>0001-01-01T00:00:00Z</createdAt>
+		<updatedAt>0001-01-01T00:00:00Z</updatedAt>
+	</order>
+	
+	
+</orderList>" localhost:8080/main
 ```
-- Rebuild and run the application from the application directory, eg. $HOME/go/src/main
-```
-$ go build main.go
-$ ./main
-```
-- Refresh the browser to see the newly assigned data.
-
-
 
