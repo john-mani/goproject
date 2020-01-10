@@ -1,5 +1,5 @@
 # goproject
-This is a demonstration of a simple HTTP server written in Go. In this example XML data is parsed and processed (a specified field is  made upper case) concurrently and returned as JSON.
+This is a demonstration of a simple HTTP server written in Go. In this example XML data sent via a cURL request to the server. The data is processed (a specified field is  made upper case) concurrently and returned as JSON.
 
 ## Installation & Usage
 - Ensure Go is installed. Visit the [Go site](https://golang.org/doc/install) for instructions and documentation.
