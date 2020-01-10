@@ -11,7 +11,7 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
   $ go build main.go
   $ ./main 
   ```
- - Send a cURL request to localhost:8080
+ - Send a cURL request to the application at localhost:8080/main
  ```
  curl -X POST -H 'Content-Type: application/xml' -d "<orderList>	
 	<order>
@@ -30,7 +30,7 @@ This is a demonstration of a simple HTTP server written in Go. In this example X
 ```
 
 
-## Other Test Cases
+## Another Test Case
 - Example command string for another test:
 ```
 curl -X POST -H 'Content-Type: application/xml' -d "<orderList>	
